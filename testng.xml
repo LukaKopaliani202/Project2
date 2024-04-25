@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Project 2" parallel="tests" thread-count="4">
+    <test name="Swoop">
+        <groups>
+            <run>
+                <include name="SwoopRegression" />
+            </run>
+        </groups>
+        <classes>
+            <class name="ge.tbc.itacademy.swoop.OfferTests" />
+        </classes>
+    </test>
+    <test name="SauceDemo">
+        <groups>
+            <run>
+                <include name="SauceDemoLogin" />
+            </run>
+        </groups>
+        <classes>
+            <class name="ge.tbc.itacademy.saucedemo.LoginTests" />
+        </classes>
+    </test>
+</suite>

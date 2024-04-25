@@ -12,5 +12,5 @@ public class ElementsCollectionUtils {
         int randomIndex = rand.nextInt(elements.size());
         return elements.get(randomIndex);
     }
-    //conflict1Cause
+    //conflict1Fix
 }

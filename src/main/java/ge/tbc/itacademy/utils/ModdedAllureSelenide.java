@@ -13,4 +13,5 @@ public class ModdedAllureSelenide extends AllureSelenide {
 
         return this;
     }
+    //conflict2
 }
